@@ -4,7 +4,7 @@
 
 int main(int argc, char* argv[]) {
 	if (argc < 2) {
-		printf("Usage: remote_pi.exe <PID>\n");
+		printf("Usage: remoteprocessinjection.exe <PID>\n");
 		exit(0);
 		return 1;
 	}
@@ -84,4 +84,5 @@ int main(int argc, char* argv[]) {
 	}
 
 	CloseHandle(hProcess);
+	return 0;
 }
