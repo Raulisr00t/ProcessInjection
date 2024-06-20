@@ -7,7 +7,7 @@ This tool is designed to inject shellcode into a remote process running on a Win
 remoteprocessinjection.exe <PID>
 
 ```
-<PID>: The Process ID of the target process where the shellcode will be injected.
+<PID> The Process ID of the target process where the shellcode will be injected.
 
 ## Prerequisites
 .Administrator privileges on the system.
