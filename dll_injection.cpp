@@ -39,7 +39,7 @@ DWORD GetProcessId(LPCTSTR processname) {
 
 int main(int argc, char* argv[]) {
     if (argc != 3) {
-        cerr << "[!] Usage: <Injector.exe> <DLL path> <ProcessName>" << endl;
+        cerr << "[!] Usage: <dll_injection.exe> <DLL path> <ProcessName>" << endl;
         return 1;
     }
 
